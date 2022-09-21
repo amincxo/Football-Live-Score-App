@@ -1,0 +1,17 @@
+@font-face {
+    font-family: Lalezar ;
+    src: url(../Fonts/Lalezar.ttf);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    overflow: auto;
+}
+.title {
+    font-family: Lalezar ,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    direction: rtl;
+    margin: 6px 15px;
+    font-weight: 300;
+    font-size: 1.3rem;
+}

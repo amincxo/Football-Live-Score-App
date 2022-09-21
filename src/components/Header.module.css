@@ -1,0 +1,67 @@
+.header {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(250, 6, 189);
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.profileImage {
+    width: 10vw;
+    border-radius: 50%;
+}
+
+.banner {
+    font-size: 1.4rem;
+    justify-items: center;
+}
+.banner span {
+    font-weight: bolder;
+}
+
+.search {
+    padding: 5px;
+    width: 8vw;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.searchBox {
+    display: flex;
+}
+
+.searchBox input {
+    height: 4.5vh;
+    width: 60vw;
+    border: 1px solid rgba(0, 0, 0, 0.700) ;
+    border-left:0 ;
+    border-right: 0;
+    font-size: large;
+}
+.searchBox input:focus{
+    outline:none;
+    border: 1px solid blue ;
+    border-left: none ;
+    border-right: none ;
+}
+
+.searchBox img {
+    width: 6vw;
+    padding: 0 2px;
+}
+
+.close {
+    border: 1px solid rgba(0, 0, 0, 0.700);
+    border-right: none;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.searchLogo {
+    border: 1px solid rgba(0, 0, 0, 0.700);
+    border-left: none;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import styles from "./App.module.css";
+import Header from './components/Header';
+// import League from "./components/Leagues";
+import Router from './Router';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className={styles.bg}  >
+            <div className={styles.app} ><Header /></div>
+            <Router >
+            </Router>
+        </div>
+
+
+    );
+};
 
 export default App;
