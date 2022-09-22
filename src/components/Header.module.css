@@ -33,7 +33,7 @@
 }
 
 .searchBox input {
-    height: 4.5vh;
+    height: 2.5rem;
     width: 60vw;
     border: 1px solid rgba(0, 0, 0, 0.700) ;
     border-left:0 ;

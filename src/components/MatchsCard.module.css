@@ -1,0 +1,57 @@
+.card {
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    width: 90%;
+    height: 60px;
+    margin-bottom: 1rem;
+    box-shadow: 0px 9px 15px  rgba(151, 151, 151, 0.199);
+    display: flex;
+    justify-content: center;
+}
+
+.homeTeam {
+    display: flex;
+    align-items: center;
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.matchTime {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.awayTeam {
+    display: flex;
+    align-items: center;
+    flex: 2;
+}
+
+.homeTeamIMG {
+    width:35px;
+    height:35px;
+    /* background-color:black; */
+    margin-left: 0.5rem;
+    /* border-radius: 20px; */
+}
+
+.awayTeamIMG {
+    width:35px;
+    height:35px;
+    /* background-color:black; */
+    margin-right: .5rem;
+    /* border-radius: 20px; */
+
+}
+
+.matchTime time {
+    color: rgb(233, 97, 0);
+    font-weight: 700;
+}
+.matchTime p {
+    color: rgba(20, 20, 20, 0.363) ;
+    font-size: small;
+}
